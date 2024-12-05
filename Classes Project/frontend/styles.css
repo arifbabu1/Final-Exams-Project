@@ -1,0 +1,65 @@
+* {
+    font-family: "Kanit", sans-serif;
+  }
+
+  h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+  
+  .login-form {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form h3 {
+    text-align: center;
+    color: rgb(21, 176, 4);
+  }
+  
+  form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  input::placeholder{
+    color: rgb(244, 88, 88);
+  }
+ 
+  input{
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    box-shadow: black 1px 1.5px 5px;
+  }
+  
+  .login-btn {
+    background-color: black; 
+    color: rgb(255, 255, 255); 
+    width: 10%;
+    padding: 7px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    margin: 0 auto;
+    
+    box-shadow: black 1px 1.5px 5px;
+  }
+  .error {
+    color: red;
+  }
+  
+  .error h3 {
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
